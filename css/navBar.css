@@ -1,0 +1,141 @@
+/*navBar styling*/
+#navBar{
+  color: black;
+  display: flex;
+  position: fixed;
+  top: 0;
+  height: 9.5rem;
+  width: 100%;
+  background-color: red;
+  z-index: 90;
+  border-radius: 0;
+}
+
+#navBar h1{
+  text-align: center;
+}
+
+/*side menu button*/
+#sideNavbutton{
+  display: flex;
+  margin-top: 0;
+  height: 100%;
+  width: 15rem;
+}
+
+#sideNavbutton:hover{
+  cursor: pointer;
+  cursor: hand;
+}
+
+#hamburger{
+ display: inline-block;
+ border: 1px solid black;
+ padding-top: .5rem;
+ padding-bottom: 2.3rem;
+ margin-top: 2.3rem;
+ margin-left: -.1rem;
+ height: 5rem;
+ width: 5rem;
+}
+
+#hamburger span{
+  display: block;
+  height: 1px;
+  margin-top: .85rem;
+  margin-bottom: .85rem;
+  border: 1px solid black;
+}
+
+#hamburger span:nth-child(1){
+  width: 28px;
+  margin-left: 1rem;
+}
+
+#hamburger span:nth-child(2){
+  width: 38px;
+  margin-left: .5rem;
+}
+
+#hamburger span:nth-child(3){
+  width: 28px;
+  margin-left: 1rem;
+}
+
+#menuClick{
+  font-size: 18.6px;
+  font-weight: 580;
+  margin: 3.5rem 2rem 3rem 1.8rem;
+}
+
+/* phone number*/
+#phoneCall{
+  height: 100%;
+  width: 28rem;
+  padding-top: 3.5rem;
+}
+
+#phoneCall span{
+  text-align: left;
+  font-size: 18.6px;
+  font-weight: 580;
+}
+
+/* page title*/
+#pageTitle{
+  height: 100%;
+  width: 60rem;
+  padding-top: 2.5rem;
+}
+
+#pageTitle img{
+  height: 5.5rem;
+  width: 5.5rem;
+  margin-top: -1.7rem;
+  margin-right: 1rem;
+  margin-left: 5rem;
+}
+
+#pageTitle span{
+  font-size: 35px;
+  text-align: center;
+  font-weight: 50;
+  margin-left: 2rem;
+}
+
+/* residents button*/
+#residents{
+  margin-left: 5rem;
+  height: 100%;
+  width: 15rem;
+  padding-top: 3.5rem;
+  text-align: right;
+}
+
+#residents span{
+  font-size: 18.6px;
+  font-weight: 580;
+}
+
+#residents:hover{
+  cursor: pointer;
+  cursor: hand;
+}
+
+/* apply now button*/
+#applyNow{
+  height: 100%;
+  width: 15rem;
+  padding-top: 3.5rem;
+    text-align: right;
+}
+
+#applyNow span{
+  font-size: 18.6px;
+  font-weight: 580;
+}
+
+#applyNow:hover{
+  cursor: pointer;
+  cursor: hand;
+}
