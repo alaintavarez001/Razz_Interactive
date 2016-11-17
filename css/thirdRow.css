@@ -1,0 +1,47 @@
+#thirdRow{
+  height: 45rem;
+  width: 105%;
+  overflow-x: hidden;
+}
+
+#choose{
+  height: 100%;
+  font-size: 40px;
+  text-align: center;
+  background-color: white;
+  padding-top: 14rem;
+}
+
+#topline3,#bottomline3{
+  border: 1px solid #daa520;
+  display: block;
+  width: 11rem;
+}
+
+#topline3{
+  position: absolute;
+  left: 23%;
+  top: 22%;
+}
+
+#bottomline3{
+  position: absolute;
+  right: 23.5%;
+  bottom: -15%;
+}
+
+#secondimage img{
+  position: absolute;
+  left: 0;
+}
+
+#contactform{
+background-color: #daa520;
+}
+
+#dropdownbutton{
+  background: #daa520;
+  color: white;
+  border-radius: 0;
+  border: solid 2px white;
+}

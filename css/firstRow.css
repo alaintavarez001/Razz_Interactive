@@ -1,0 +1,81 @@
+#firstRow{
+  width: 105%;
+  overflow-x: hidden;
+  height: 35rem;
+}
+#unique{
+  font-size: 40px;
+  text-align: center;
+  height: 100%;
+  background-color: white;
+  padding-top: 12rem;
+}
+
+#topline1,#bottomline1{
+  border: 1px solid #daa520;
+  display: block;
+  width: 11rem;
+}
+
+#topline1{
+  position: absolute;
+  left: 15%;
+  top: 25%;
+}
+
+#bottomline1{
+  position: absolute;
+  right: 15%;
+  bottom: 25%;
+}
+
+#luxury{
+  height: 100%;
+  padding-top: 5rem;
+  text-align: center;
+  background-color: #3a3943;
+  color: white;
+}
+
+#luxurytitle{
+  font-size: 40px;
+}
+
+#middleline{
+  border: 1px solid #daa520;
+  display: block;
+  width: 11rem;
+  position: absolute;
+  left: 45%;
+  top: 40%;
+}
+
+#apartments{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  font-size: 18px;
+}
+
+#floorplans{
+  position: absolute;
+  top: 75%;
+  left: 40%;
+  color: white;
+}
+
+#floorplans span{
+  font-size: 18px;
+}
+
+#floorplans i{
+  font-size: 40px;
+  position: absolute;
+  top: -31%;
+  left: 108%;
+}
+
+#floorplans:hover{
+  text-decoration: none;
+  color: #daa520;
+}

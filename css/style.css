@@ -4,3 +4,11 @@
 @import url('navBar.css');
 @import url('sideNav.css');
 @import url('carousel.css');
+@import url('firstRow.css');
+@import url('secondRow.css');
+@import url('thirdRow.css');
+
+
+body{
+  overflow-x: hidden;
+}
