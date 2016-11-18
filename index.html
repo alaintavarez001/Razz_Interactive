@@ -16,7 +16,7 @@
 
   <body>
 <!-- navbar -->
-      <nav class="navbar" id="navBar">
+      <nav class="navbar catamaran" id="navBar">
         <div id="sideNavbutton">
           <div id="hamburger">
             <span></span>
@@ -28,7 +28,7 @@
           </div>
         </div>
         <div id="phoneCall">
-          <span> CALL 888.555.55555</span>
+          <span>CALL 888.555.55555</span>
         </div>
         <div id="pageTitle">
           <img src="img/logo_colored.png" alt="" />
@@ -42,7 +42,7 @@
         </div>
       </nav>
 <!-- side navbar -->
-      <div id="Sidenav" class="sidenav">
+      <div id="Sidenav" class="sidenav catamaran">
         <div id="closeSidenav" href="javascript:void(0)" class="closebtn" onclick="closeNav()">
           <span></span>
           <span></span>
@@ -78,92 +78,118 @@
 <!-- caption -->
       <div class="carousel-caption">
         <span id="topline"></span>
-        <span>LOREM IPSUM<br>DOLOR SIT AMET</span>
+        <span class="catamaran">LOREM IPSUM<br>DOLOR SIT AMET</span>
         <span id="bottomline"></span>
       </div>
 <!-- left/right buttons -->
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
         <i  class="arrows fa fa-angle-left" aria-hidden="true"></i>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
         <i class="arrows fa fa-angle-right" aria-hidden="true"></i>
         <span class="sr-only">Next</span>
       </a>
 <!-- scroll to bottom corner button -->
       <div id="cornerArrowContainer">
-        <a href="#" id="cornerArrow"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
+        <a href="#firstRow" id="cornerArrow"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
       </div>
     </div>
 <!-- first row -->
-    <div class="row" id="firstRow">
-      <div class="col-sm-4" id="unique">
+    <div id="firstRow">
+      <div  id="unique">
         <span id="topline1"></span>
-        <span>UNIQUE AND<br>SOPHISTICATED</span>
+        <span class="catamaran">UNIQUE AND<br>SOPHISTICATED</span>
         <span id="bottomline1"></span>
       </div>
-      <div class="col-sm-8" id="luxury">
-        <span id="luxurytitle"><i>Lorem ipsum dolor sit amet.</i></span>
-        <span id="middleline"></span>
-        <span id="apartments">Luxury apartments offers 1-, 2-, 3-Bedrooms along with Loft-style<br>homes,nestled in the sunny beautyof north scottsdale.</span>
-          <a href="#" id="floorplans"><span>FLOOR PLANS</span><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+      <div id="luxury">
+        <div>
+          <span id="luxurytitle" class="imfell"><i>Lorem ipsum dolor sit amet.</i></span>
+          <span id="middleline"></span>
+        </div>
+        <div id="apartments">
+          <span class="abhaya">Luxury apartments offers 1-, 2-, 3-Bedrooms along with Loft-style<br>homes,nestled in the sunny beautyof north scottsdale.</span>
+        </div>
+        <div id="floorplans">
+          <a href="" class="catamaran"><span>FLOOR PLANS</span><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+        </div>
       </div>
     </div>
 <!-- second row -->
-    <div class="row" id="secondRow">
-      <div class="col-sm-7" id="firstimage">
+    <div id="secondRow">
+      <div id="firstimage">
         <img src="img/maincontent1r.jpg" alt=""/>
       </div>
-      <div class="col-sm-5" id="ad1">
+      <div id="ad1">
         <span id="topline2"></span>
-        <span>EXPERIENCE<br>LUXURY AND<br>COMFORT WITH<br>STUNNING VIEWS<br>OF NORTH<br>SCOTTSDALE.</span>
+        <span class="catamaran">EXPERIENCE<br>LUXURY AND<br>COMFORT WITH<br>STUNNING VIEWS<br>OF NORTH<br>SCOTTSDALE.</span>
         <span id="bottomline2"></span>
       </div>
     </div>
 <!-- third row -->
-    <div class="row">
-      <div class="col-sm-5" id="choose">
+    <div id="thirdRow">
+      <div id="choose">
         <span id="topline3"></span>
-        <span>CHOOSE<br>YOUR LIFESTYLE.<br>FIND YOUR<br>NEW HOME.</span>
+        <span id="choose-text" class="catamaran">CHOOSE<br>YOUR LIFESTYLE.<br>FIND YOUR<br>NEW HOME.</span>
         <span id="bottomline3"></span>
       </div>
-      <div class="col-sm-2" id="secondimage">
+      <div id="secondimage">
         <img src="img/maincontent2r.jpg" alt=""/>
       </div>
-      <div class="col-sm-5" id="contactform">
+      <div id="contactform">
+        <div id="inputs">
+          <input id="fname" type="text" placeholder="FIRST NAME">
+          <input id="lname" type="text" placeholder="LAST NAME">
+          <input id="email" type="text" placeholder="EMAIL">
+        </div>
         <div class="dropdown">
           <button class="btn btn-default dropdown-toggle" type="button" id="dropdownbutton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-            HOW DID YOU HEAR ABOUT US?
-            <span class="caret"></span>
+            <span class="jaldi" id="dropdowntext">HOW DID YOU HEAR ABOUT US?</span><i class="fa fa-angle-down" aria-hidden="true" id="dropdownarrow"></i>
           </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-              <li><a href="#">Google</a></li>
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">Yelp</a></li>
-              <li><a href="#">Yahoo</a></li>
-              <li><a href="#">Bing</a></li>
-              <li><a href="#">Realtor</a></li>
-              <li><a href="#">Resident</a></li>
-              <li><a href="#">Other</a></li>
+            <ul id="dropdownmenu"class="dropdown-menu jaldi" aria-labelledby="dropdownMenu1">
+              <li><a href=""><i class="fa fa-google-plus-official" aria-hidden="true"></i> <span>Google</span></a></li>
+              <li><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i> <span>Facebook</span></a></li>
+              <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i> <span>Twitter</span></a></li>
+              <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i> <span>Instagram</span></a></li>
+              <li><a href=""><i class="fa fa-yelp" aria-hidden="true"></i> <span>Yelp</span></a></li>
+              <li><a href=""><i class="fa fa-user" aria-hidden="true"></i> <span>Realtor</span></a></li>
+              <li><a href=""><i class="fa fa-users" aria-hidden="true"></i> <span>Resident</span></a></li>
+              <li><a href=""><i class="fa fa-check-square" aria-hidden="true"></i> <span>Other</span></a></li>
             </ul>
+        </div>
+        <button id="submitbutton" type="button" class="jaldi">SUBMIT</button>
+      </div>
+    </div>
+<!-- map and contact info -->
+    <div id="mapsection">
+      <div id="map">
+        <iframe width="100%" height="800px" frameborder="0" style="border:0"
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBMrN_LzDsrsRmE3La6qaZ1jxN0w26mqYo&q=Miami+FL" allowfullscreen>
+        </iframe>
+      </div>
+      <div id="maplogo">
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+      </div>
+      <div id="mapcaption">
+        <div id="mapcaptiontitle">
+          <span class="imfell"><i>Lorem ipsum dolor sit amet.</i></span>
+          <span id="middleline1"></span>
+        </div>
+        <div id="contactus">
+          <span class="abhaya">P: 8555.555.5555</span><br>
+          <span class="abhaya">A: 261 NE 1st Street, Miami, FL 33132</span>
         </div>
       </div>
     </div>
 
 
 <!-- scripts -->
-<!-- main javascript -->
-    <script type="text/javascript" src="js/main.js"></script>
 <!-- jQuery -->
     <script type="text/javascript"src="js/jquery-3.1.1.min.js"></script>
+<!-- main javascript -->
+    <script type="text/javascript" src="js/main.js"></script>
 <!-- bootstrap javascript -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<!-- side bar javascript -->
-    <script type="text/javascript" src="js/sideNav.js"></script>
-<!-- image carousel javascript -->
-    <script type="text/javascript" src="js/carousel.js"></script>
 
   </body>
 

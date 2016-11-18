@@ -11,10 +11,6 @@
   border-radius: 0;
 }
 
-#navBar h1{
-  text-align: center;
-}
-
 /*side menu button*/
 #sideNavbutton{
   display: flex;
@@ -63,8 +59,8 @@
 }
 
 #menuClick{
-  font-size: 18.6px;
-  font-weight: 580;
+  font-size: 19px;
+  font-weight: 500;
   margin: 3.5rem 2rem 3rem 1.8rem;
 }
 
@@ -73,12 +69,9 @@
   height: 100%;
   width: 28rem;
   padding-top: 3.5rem;
-}
-
-#phoneCall span{
   text-align: left;
-  font-size: 18.6px;
-  font-weight: 580;
+  font-size: 19px;
+  font-weight: 500;
 }
 
 /* page title*/
@@ -86,6 +79,7 @@
   height: 100%;
   width: 60rem;
   padding-top: 2.5rem;
+  font-size: 40px;
 }
 
 #pageTitle img{
@@ -97,9 +91,6 @@
 }
 
 #pageTitle span{
-  font-size: 35px;
-  text-align: center;
-  font-weight: 50;
   margin-left: 2rem;
 }
 
@@ -110,11 +101,8 @@
   width: 15rem;
   padding-top: 3.5rem;
   text-align: right;
-}
-
-#residents span{
-  font-size: 18.6px;
-  font-weight: 580;
+  font-size: 19px;
+  font-weight: 500;
 }
 
 #residents:hover{
@@ -127,12 +115,9 @@
   height: 100%;
   width: 15rem;
   padding-top: 3.5rem;
-    text-align: right;
-}
-
-#applyNow span{
-  font-size: 18.6px;
-  font-weight: 580;
+  text-align: right;
+  font-size: 19px;
+  font-weight: 500;
 }
 
 #applyNow:hover{

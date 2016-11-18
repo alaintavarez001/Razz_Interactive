@@ -1,0 +1,30 @@
+#mapsection{
+  position: relative;
+}
+
+#mapcaption{
+  padding-top: 5rem;
+  background-color: #3a3943;
+  color: white;
+  width: 71%;
+  position: absolute;
+  bottom: 8%;
+  left: 15%;
+  text-align: left;
+}
+
+#mapcaptiontitle{
+  font-size: 40px;
+}
+
+#middleline1{
+  border: 1px solid #daa520;
+  display: block;
+  width: 11rem;
+  margin: 3rem 0 5rem 40rem;
+}
+
+#contanctus{
+  color: white;
+  font-size: 25px;
+}

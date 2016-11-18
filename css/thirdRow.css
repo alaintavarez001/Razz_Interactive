@@ -1,15 +1,25 @@
 #thirdRow{
-  height: 45rem;
-  width: 105%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex: 1;
+  flex: 1;
+  width: 100%;
   overflow-x: hidden;
+  text-align: center;
 }
 
 #choose{
-  height: 100%;
+  padding: 1rem 0 1rem 0;
   font-size: 40px;
-  text-align: center;
   background-color: white;
-  padding-top: 14rem;
+  width: 35%;
+}
+
+#choose-text{
+  text-align: center;
+  margin: 0;
 }
 
 #topline3,#bottomline3{
@@ -19,29 +29,130 @@
 }
 
 #topline3{
-  position: absolute;
-  left: 23%;
-  top: 22%;
+  margin: 7rem 0 5rem 10rem;
 }
 
 #bottomline3{
-  position: absolute;
-  right: 23.5%;
-  bottom: -15%;
+  margin: 5rem 0 7rem 29rem;
+}
+
+#secondimage{
+  width: 30%;
 }
 
 #secondimage img{
-  position: absolute;
-  left: 0;
+  height: 100%;
+  width: 100%;
 }
 
 #contactform{
-background-color: #daa520;
+  position: relative;
+  background-color: #daa520;
+  padding-top: 13.5rem;
+  padding-bottom: 9rem;
+  width: 35%;
+}
+
+#inputs{
+  padding: 0 auto;
+}
+
+#fname, #lname, #email{
+  background: transparent;
+  border-radius: 0;
+  border: 2px solid white;
+  color: white;
+  padding: 2rem;
+  font-size: 18px;
+  height: 5rem;
+}
+
+#fname, #lname{
+  width: 16.5rem;
+  margin-bottom: 1.4rem;
+}
+
+#email{
+  width: 34.9rem;
+  margin-bottom: 1.4rem;
+}
+
+#fname{
+  margin-right: 1.4rem;
 }
 
 #dropdownbutton{
-  background: #daa520;
+  font-weight: 400;
+  background: transparent;
   color: white;
   border-radius: 0;
   border: solid 2px white;
+  padding: 1rem;
+  font-size: 18px;
+  width: 34.9rem;
+  height: 5rem;
+  margin-bottom: 1.4rem;
+}
+
+#dropdowntext{
+  float: left;
+  font-size: 18px;
+  margin-left: .5rem;
+}
+
+#dropdownarrow{
+  margin: .5rem;
+  float: right;
+}
+
+#dropdownmenu{
+  position: absolute;
+  top: -220%;
+  left: 14.5%;
+  width: 34.9rem;
+  border-radius: 0;
+  background: #daa520;
+}
+
+#dropdownmenu>li>a{
+  color: white;
+  font-size: 22px;
+}
+
+#dropdownmenu>li>a:hover{
+  background: transparent;
+  color: #3a3943;
+}
+
+#submitbutton{
+  border: white;
+  border-radius: 0;
+  background: white;
+  color: #3a3943;
+  border: none;
+  padding: 1rem;
+  width: 34.9rem;
+  height: 5rem;
+  font-size: 18px;
+}
+
+#fname::-webkit-input-placeholder, #lname::-webkit-input-placeholder, #email::-webkit-input-placeholder {
+    color: white;
+    opacity: 1;
+    font-family: 'Jaldi', sans-serif;
+}
+#fname:-moz-placeholder, #lname:-moz-placeholder, #email:-moz-placeholder {
+   color: white;
+   opacity:  1;
+   font-family: 'Jaldi', sans-serif;
+}
+#fname::-moz-placeholder, #lname::-moz-placeholder, #email::-moz-placeholder {
+   color: white;
+   opacity:  1;
+   font-family: 'Jaldi', sans-serif;
+}
+#fname:-ms-input-placeholder, #lname:-ms-input-placeholder, #email:-ms-input-placeholder {
+   color: white;
+   opacity: 1;
+   font-family: 'Jaldi', sans-serif;
 }
