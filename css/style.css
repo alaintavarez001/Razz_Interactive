@@ -9,25 +9,31 @@
 @import url('secondRow.css');
 @import url('thirdRow.css');
 @import url('mapSection.css');
-
+@import url('footer.css');
+@import url('copyrightaccessibility.css');
+@import url('mediaquery.css');
+/*colors*/
+/*yellow/gold = #daa520 */
+/*gray/blue = #3a3943 */
 
 body{
-  overflow-x: hidden;
+  overflow: auto;
 }
 
+/*main font*/
 .catamaran{
   font-family: 'Catamaran', sans-serif;
   font-weight: lighter;
 }
-
+/*contact info and apertment info font*/
 .abhaya{
   font-family: 'Abhaya Libre', serif;
 }
-
+/*lorem ipsum font*/
 .imfell{
   font-family: 'IM Fell French Canon', serif;
 }
-
+/*contact form and copyright font*/
 .jaldi{
 font-family: 'Jaldi', sans-serif;
 }

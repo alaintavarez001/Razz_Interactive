@@ -2,18 +2,39 @@
   position: relative;
 }
 
+#map{
+  height: 75rem;
+}
+
 #mapcaption{
-  padding-top: 5rem;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex: 1;
+  flex: 1;
   background-color: #3a3943;
   color: white;
-  width: 71%;
+  width: 70%;
   position: absolute;
   bottom: 8%;
   left: 15%;
   text-align: left;
 }
 
+#maplogo{
+  width: 25%;
+  text-align: center;
+  background-color: #daa520;
+  font-size: 100px;
+}
+
+#maplogo i{
+  margin-top: 7rem;
+}
+
 #mapcaptiontitle{
+  margin: 3rem 0 0 5rem;
   font-size: 40px;
 }
 
@@ -21,10 +42,11 @@
   border: 1px solid #daa520;
   display: block;
   width: 11rem;
-  margin: 3rem 0 5rem 40rem;
+  margin: 3rem 0 2rem 0;
 }
 
-#contanctus{
+#phoneaddress{
+  margin: 0 0 3rem 5rem;
   color: white;
   font-size: 25px;
 }

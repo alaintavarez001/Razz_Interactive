@@ -1,0 +1,90 @@
+@media screen and (max-width: 500px) {
+
+/*first row*/
+  #firstRow{
+    display: -webkit-flex;
+   -webkit-flex-wrap: wrap;
+   display: flex;
+   flex-wrap: wrap;
+  }
+
+  #unique{
+    width: 100%;
+  }
+
+  #luxury{
+    width: 100%;
+  }
+
+/*second row*/
+  #secondRow{
+    display: -webkit-flex;
+   -webkit-flex-wrap: wrap;
+   display: flex;
+   flex-wrap: wrap;
+  }
+
+  #firstimage{
+    width: 100%;
+  }
+
+  #ad1{
+    width: 100%;
+  }
+
+/*third row*/
+  #thirdRow{
+    display: -webkit-flex;
+   -webkit-flex-wrap: wrap;
+   display: flex;
+   flex-wrap: wrap;
+  }
+
+  #choose{
+    width: 100%;
+  }
+
+  #secondimage{
+    width: 100%;
+  }
+
+  #contactform{
+    width: 100%;
+  }
+
+/*map section*/
+  #mapsection{
+  display: -webkit-flex;
+ -webkit-flex-wrap: wrap;
+ display: flex;
+ flex-wrap: wrap;
+  }
+
+  #map{
+    display: block;
+    width: 100%
+  }
+
+  #mapcaption{
+    display: block;
+    width: 100%;
+  }
+
+/*footer*/
+  #footer{
+    display: -webkit-flex;
+   -webkit-flex-wrap: wrap;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+  }
+
+/*copyright and accessibility*/
+  #copyrightaccessibility{
+    display: -webkit-flex;
+   -webkit-flex-wrap: wrap;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+  }
+}

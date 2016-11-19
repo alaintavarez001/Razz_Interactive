@@ -92,7 +92,7 @@
       </a>
 <!-- scroll to bottom corner button -->
       <div id="cornerArrowContainer">
-        <a href="#firstRow" id="cornerArrow"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
+        <a href="#map" id="cornerArrow"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
       </div>
     </div>
 <!-- first row -->
@@ -147,8 +147,8 @@
             <span class="jaldi" id="dropdowntext">HOW DID YOU HEAR ABOUT US?</span><i class="fa fa-angle-down" aria-hidden="true" id="dropdownarrow"></i>
           </button>
             <ul id="dropdownmenu"class="dropdown-menu jaldi" aria-labelledby="dropdownMenu1">
-              <li><a href=""><i class="fa fa-google-plus-official" aria-hidden="true"></i> <span>Google</span></a></li>
-              <li><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i> <span>Facebook</span></a></li>
+              <li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i> <span>Google</span></a></li>
+              <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i> <span>Facebook</span></a></li>
               <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i> <span>Twitter</span></a></li>
               <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i> <span>Instagram</span></a></li>
               <li><a href=""><i class="fa fa-yelp" aria-hidden="true"></i> <span>Yelp</span></a></li>
@@ -157,35 +157,88 @@
               <li><a href=""><i class="fa fa-check-square" aria-hidden="true"></i> <span>Other</span></a></li>
             </ul>
         </div>
-        <button id="submitbutton" type="button" class="jaldi">SUBMIT</button>
+        <button id="submitbutton" type="button" class="jaldi" data-toggle="modal" data-target="#contactModal">SUBMIT</button>
       </div>
     </div>
 <!-- map and contact info -->
     <div id="mapsection">
       <div id="map">
-        <iframe width="100%" height="800px" frameborder="0" style="border:0"
-          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBMrN_LzDsrsRmE3La6qaZ1jxN0w26mqYo&q=Miami+FL" allowfullscreen>
-        </iframe>
-      </div>
-      <div id="maplogo">
-        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        <!-- map inserted by javascript -->
       </div>
       <div id="mapcaption">
-        <div id="mapcaptiontitle">
-          <span class="imfell"><i>Lorem ipsum dolor sit amet.</i></span>
-          <span id="middleline1"></span>
+        <div id="maplogo">
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
         </div>
-        <div id="contactus">
-          <span class="abhaya">P: 8555.555.5555</span><br>
-          <span class="abhaya">A: 261 NE 1st Street, Miami, FL 33132</span>
+        <div>
+          <div id="mapcaptiontitle" >
+            <span class="imfell"><i>Lorem ipsum dolor sit amet.</i></span>
+            <span id="middleline1"></span>
+          </div>
+          <div id="phoneaddress">
+            <span class="abhaya">P: 8555.555.5555</span><br>
+            <span class="abhaya">A: 261 NE 1st Street, Miami, FL 33132</span>
+          </div>
         </div>
       </div>
     </div>
-
-
+<!-- footer -->
+    <div id="footer">
+      <div id="contactus">
+        <span class="catamaran">CONTACT US</span>
+      </div>
+      <div id="phoneaddress1">
+        <span class="abhaya">P: 8555.555.5555</span><br>
+        <span class="abhaya">A: 261 NE 1st Street, Miami, FL 33132</span>
+      </div>
+      <div id="socialicons">
+        <span>
+          <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </span>
+      </div>
+      <div id="bottomlogos">
+        <span id="logo1" class="catamaran">LOGO</span>
+        <span id="logo2" class="catamaran">LOGO</span>
+      </div>
+      <div id="bottomarrowtopper">
+      </div>
+    </div>
+<!-- copyright and accessibility -->
+    <div id="copyrightaccessibility">
+      <div id="copyright">
+        <span class="jaldi">Copyright &copy; 2015 Luxury Apartment | All Rights Reserved. Powered by <strong>Razz Interactive</strong></span>
+      </div>
+      <div id="accessibility">
+        <span class="jaldi"><i  id="paw" class="fa fa-paw" aria-hidden="true"></i>&nbsp;PET FRIENDLY&nbsp;&nbsp;<i class="fa fa-wheelchair" aria-hidden="true"></i></span>&nbsp;&nbsp;<img src="img\equalhousinglogo.png" alt=""/>
+      </div>
+      <div id="bottomarrowcontainer">
+          <a href="#carousel" id="bottomarrow"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
+      </div>
+    </div>
+<!-- modals -->
+<!-- new contact info modal -->
+<div id="contactModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title catamaran">LUXURY APARTMENT</h4>
+      </div>
+      <div class="modal-body" id="contactModalcontent">
+        <!-- paragraph inserted by jquery  -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="closecontactModal" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div
 <!-- scripts -->
 <!-- jQuery -->
     <script type="text/javascript"src="js/jquery-3.1.1.min.js"></script>
+<!-- map javascript -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 <!-- main javascript -->
     <script type="text/javascript" src="js/main.js"></script>
 <!-- bootstrap javascript -->

@@ -34,22 +34,209 @@ $("#dropdownmenu>li>a").click(function(event) {
   var source = $(this).find("span").html();
   $("#dropdowntext").html(source);
 });
-// map selection
-var url = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDB8aXIxv7p_aiShz7YI8ZZH0eo_fQ21Ns'; //&callback=initialize";
-$.getScript(url).done(initialize).fail(errorCallback);
-function errorCallback(){
-  alert('Failed to contact Google maps API. Please try refreshing the page');
-}
-// 25.7617° N, 80.1918° W
-function initialize() {
-  var mapOptions = {
-    center: { lat: 25.7617, lng: 80.1918},
-    zoom: 8
-  };
-  map = new google.maps.Map(document.getElementById('map-canvas'),
-      mapOptions);
-}
+// map function
+google.maps.event.addDomListener(window, 'load', init);
+
+           function init() {
+               var mapOptions = {
+                   zoom: 17,
+                   scrollwheel: false,
+                   center: new google.maps.LatLng(25.7617, -80.1918),
+                   styles: [
+                    {
+                        "featureType": "water",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#e9e9e9"
+                            },
+                            {
+                                "lightness": 17
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "landscape",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#f5f5f5"
+                            },
+                            {
+                                "lightness": 20
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.highway",
+                        "elementType": "geometry.fill",
+                        "stylers": [
+                            {
+                                "color": "#ffffff"
+                            },
+                            {
+                                "lightness": 17
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.highway",
+                        "elementType": "geometry.stroke",
+                        "stylers": [
+                            {
+                                "color": "#ffffff"
+                            },
+                            {
+                                "lightness": 29
+                            },
+                            {
+                                "weight": 0.2
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.arterial",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#ffffff"
+                            },
+                            {
+                                "lightness": 18
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.local",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#ffffff"
+                            },
+                            {
+                                "lightness": 16
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#f5f5f5"
+                            },
+                            {
+                                "lightness": 21
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi.park",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#dedede"
+                            },
+                            {
+                                "lightness": 21
+                            }
+                        ]
+                    },
+                    {
+                        "elementType": "labels.text.stroke",
+                        "stylers": [
+                            {
+                                "visibility": "on"
+                            },
+                            {
+                                "color": "#ffffff"
+                            },
+                            {
+                                "lightness": 16
+                            }
+                        ]
+                    },
+                    {
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "saturation": 36
+                            },
+                            {
+                                "color": "#333333"
+                            },
+                            {
+                                "lightness": 40
+                            }
+                        ]
+                    },
+                    {
+                        "elementType": "labels.icon",
+                        "stylers": [
+                            {
+                                "visibility": "off"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "transit",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#f2f2f2"
+                            },
+                            {
+                                "lightness": 19
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "administrative",
+                        "elementType": "geometry.fill",
+                        "stylers": [
+                            {
+                                "color": "#fefefe"
+                            },
+                            {
+                                "lightness": 20
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "administrative",
+                        "elementType": "geometry.stroke",
+                        "stylers": [
+                            {
+                                "color": "#fefefe"
+                            },
+                            {
+                                "lightness": 17
+                            },
+                            {
+                                "weight": 1.2
+                            }
+                        ]
+                    }
+                ]
+               };
+               var mapElement = document.getElementById('map');
+               var map = new google.maps.Map(mapElement, mapOptions);
+           };
 
 
+// modals
+// personalized new contact form modal
+$('#submitbutton').click(function(){
+  var first = $('#fname').val();
+  var last = $('#lname').val();
+  var email = $('#email').val();
+  $('#contactModalcontent').append(`<p id="thankyou">Thank you, ${first} ${last} for your interest in LUXURY APARTMENT! One of our agents will contant you at the email you provided (${email}) to set up an appointment at your earliest convenience.</p>`);
+  $('#fname').val("");
+  $('#lname').val("");
+  $('#email').val("");
+  $("#dropdowntext").html("HOW DID YOU HEAR ABOUT US?");
+});
 
-// AIzaSyAm_277bJ1ArBCtbD-tiRugtEfkJykj-_Q
+$('#closecontactModal').click(function(){
+  $('#thankyou').remove();
+});

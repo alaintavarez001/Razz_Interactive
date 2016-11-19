@@ -1,5 +1,6 @@
 /*navBar styling*/
 #navBar{
+  color: #3a3943;
   color: black;
   display: flex;
   position: fixed;
@@ -11,8 +12,9 @@
   border-radius: 0;
 }
 
-/*side menu button*/
+
 #sideNavbutton{
+  color: #3a3943;
   display: flex;
   margin-top: 0;
   height: 100%;
@@ -24,15 +26,25 @@
   cursor: hand;
 }
 
+#sideNavbutton:hover #hamburger, #sideNavbutton:hover #hamburger span{
+   border-color: #daa520;
+}
+
+#sideNavbutton:hover #menuClick{
+  color: #daa520;
+}
+
+
 #hamburger{
- display: inline-block;
- border: 1px solid black;
- padding-top: .5rem;
- padding-bottom: 2.3rem;
- margin-top: 2.3rem;
- margin-left: -.1rem;
- height: 5rem;
- width: 5rem;
+   color: #3a3943;
+   display: inline-block;
+   border: 1px solid #3a3943;
+   padding-top: .5rem;
+   padding-bottom: 2.3rem;
+   margin-top: 2.3rem;
+   margin-left: -.1rem;
+   height: 5rem;
+   width: 5rem;
 }
 
 #hamburger span{
@@ -40,7 +52,7 @@
   height: 1px;
   margin-top: .85rem;
   margin-bottom: .85rem;
-  border: 1px solid black;
+  border: 1px solid #3a3943;
 }
 
 #hamburger span:nth-child(1){
@@ -59,19 +71,30 @@
 }
 
 #menuClick{
+  color: #3a3943;
   font-size: 19px;
   font-weight: 500;
   margin: 3.5rem 2rem 3rem 1.8rem;
 }
 
-/* phone number*/
+#menuClick:hover{
+  color: #daa520;
+}
+
 #phoneCall{
+  color:#3a3943
   height: 100%;
   width: 28rem;
   padding-top: 3.5rem;
   text-align: left;
   font-size: 19px;
   font-weight: 500;
+}
+
+#phoneCall:hover{
+  color: #daa520;
+  cursor: pointer;
+  cursor: hand;
 }
 
 /* page title*/
@@ -91,11 +114,13 @@
 }
 
 #pageTitle span{
+  color: #3a3943;
   margin-left: 2rem;
 }
 
 /* residents button*/
 #residents{
+  color: #3a3943;
   margin-left: 5rem;
   height: 100%;
   width: 15rem;
@@ -106,12 +131,13 @@
 }
 
 #residents:hover{
+  color: #daa520;
   cursor: pointer;
   cursor: hand;
 }
 
-/* apply now button*/
 #applyNow{
+  color: #3a3943;
   height: 100%;
   width: 15rem;
   padding-top: 3.5rem;
@@ -123,4 +149,5 @@
 #applyNow:hover{
   cursor: pointer;
   cursor: hand;
+  color: #daa520;
 }
