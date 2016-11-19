@@ -15,7 +15,7 @@
 
 #hamburger{
    padding-top: .5rem .2rem 0 0;
-   margin-top: 2.5rem;
+   margin-top: 3rem;
    margin-left: -0.2rem;
    height: 3.5rem;
    width: 4rem;
@@ -42,14 +42,14 @@
 }
 
 #menuClick{
-  font-size: 13px;
+  font-size: 19px;
 }
 
 #residents{
   margin-left: 0;
   width: 33%;
   text-align: center;
-  font-size: 13px;
+  font-size: 19px;
 }
 
 #applyNow{
@@ -57,20 +57,20 @@
   height: 100%;
   width: 33%;
   text-align: center;
-  font-size: 13px;
+  font-size: 19px;
 }
 
 /*carousel*/
 #carousel{
-  height: 25vh;
   width: 100%;
   overflow: hidden;
+  height: 60vh;
   }
 
 .carousel-indicators{
   position: absolute;;
-  left: 50%;
-  bottom: 1%;
+  left: 33.2rem;
+  bottom: 1rem;
   }
 
   #bullet1,#bullet2,#bullet3{
@@ -84,20 +84,23 @@
   }
 
   .carousel-caption{
+    position: fixed;
     width: 60%;
     height: 10%;
-    bottom: 40%;
-    left: 20%;
-    font-size: 20px;
+    top: 28rem;
+    left: 12.1rem;
+    font-size: 40px;
   }
 
 
   #topline{
-    display: none;
+    bottom: 15rem;
+    left: 15.1rem;
   }
 
   #bottomline{
-    display: none;
+    top: 15rem;
+    left: 15.1rem;
   }
 
   #cornerArrowContainer{
@@ -117,48 +120,21 @@
   }
 
   #unique{
-    font-size: 30px;
-    width: 100%
-  }
-
-  #topline1{
-    margin: 4rem auto 2rem auto;
-  }
-
-  #bottomline1{
-    margin: 2rem auto 4rem auto;
-  }
-
-  #luxury{
-    padding-top: 2rem;
     width: 100%;
   }
 
-  #luxurytitle{
-    font-size: 30px;
-  }
-  #middleline{
-    margin: 2rem auto 2rem auto;
+  #topline1{
+    margin: 8rem auto 5rem auto;
   }
 
-  #apartments{
-    font-size: 18px;
+  #bottomline1{
+    margin: 5rem auto 8rem auto;
   }
 
-  #floorplans{
-    margin: 1rem 0 2rem 0;
+  #luxury{
+    width: 100%;
   }
 
-  #floorplans>a>span{
-    font-size: 16px;
-  }
-
-  #floorplans i{
-    position: relative;
-    top: 5px;
-    left: 8px;
-    font-size: 30px;
-  }
 
 /*second row*/
   #secondRow{
@@ -169,24 +145,22 @@
   }
 
   #firstimage{
-    order: 3;
     width: 100%;
-    height: 27rem;
+    order: 3;
   }
 
   #ad1{
     width: 100%;
-    font-size: 30px;
     text-align: center;
     padding-left: 0;
   }
 
   #topline2{
-    margin: 4rem auto 2rem auto;
+    margin: 8rem auto 5rem auto;
   }
 
   #bottomline2{
-    margin: 2rem auto 4rem auto;
+    margin: 5rem auto 8rem auto;
   }
 
 
@@ -200,20 +174,18 @@
 
   #choose{
     width: 100%;
-    font-size: 30px;
   }
 
   #topline3{
-    margin: 4rem auto 2rem auto;
+    margin: 8rem auto 5rem auto;
   }
 
   #bottomline3{
-    margin: 2rem auto 4rem auto;
+    margin: 5rem auto 8rem auto;
   }
 
   #secondimage{
     width: 100%;
-    height: 31rem;
   }
 
   #contactform{
@@ -223,7 +195,7 @@
   }
 
   #fname, #lname{
-    width: 38%;
+    width: 39.4%;
     margin-bottom: .5rem;
   }
 
@@ -237,7 +209,6 @@
   }
 
   #dropdownbutton{
-    font-size: 12px;
     width: 80%;
     height: 5rem;
     margin-bottom: .5rem;
@@ -248,7 +219,6 @@
   }
 
   #dropdowntext{
-    font-size: 16px;
     margin-left: 0;
   }
 
@@ -258,14 +228,9 @@
     width: 80%;
   }
 
-  #dropdownmenu>li>a{
-    font-size: 16px;
-  }
-
   #submitbutton{
     padding: .5rem;
     width: 80%;
-    font-size: 14px;
   }
 
 
@@ -279,32 +244,31 @@
 
   #map{
     width: 100%;
-    height: 50rem;
   }
 
   #mapcaption{
-    bottom: 15%;
-    left: 10%;
-    width: 80%;
+    bottom: 10%;
+    left: 15%;
   }
 
   #maplogo{
-  display: none;
+  font-size: 50px;
+  padding-bottom: 5rem;
   }
 
   #mapcaptiontitle{
     margin: .5rem 0 0 .5rem;
-    font-size: 25px;
+    font-size: 34px;
   }
 
   #middleline1{
-    margin: .5rem auto .5rem auto;
+    margin: .5rem auto .5rem 0;
   }
 
   #phoneaddress{
     margin: .5rem 0 .5rem .5rem;
     color: white;
-    font-size: 16px;
+    font-size: 17px;
   }
 
 
@@ -314,35 +278,26 @@
    -webkit-flex-wrap: wrap;
    display: flex;
    flex-wrap: wrap;
-   justify-content: center;
+  padding: 6rem 0 8rem 0;
   }
 
   #contactus{
-    font-size: 18px;
-    margin-bottom: 1rem;
+    width: 100%;
   }
 
   #phoneaddress1{
-    font-size: 16px;
-    margin-bottom: 3rem;
+    width: 100%;
   }
 
+
   #socialicons{
-    margin-bottom: 3rem;
+    width: 100%;
   }
 
   #bottomlogos{
-    font-size: 20px;
-    margin-bottom: 5rem;
+    width: 100%;
   }
 
-  #logo1{
-    margin: 0 auto 1.5rem auto;
-  }
-
-  #logo2{
-    margin: .5rem auto 1rem auto;
-  }
 
 /*copyright and accessibility*/
   #copyrightaccessibility{
@@ -351,13 +306,11 @@
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
+   width: 100%;
   }
 
   #bottomarrowtopper{
-    bottom: 14.7%;
-    right: -50%;
-    height: 100px;
-    width: 188.3px;
+    display: none;
   }
 
   #bottomarrowcontainer{
@@ -373,7 +326,9 @@
   #copyright{
     order: 3;
     font-size: 13px;
-    margin: .5rem 2.3rem 3rem 2.3rem;
+    width: 100%;
+    text-align: left;
+    margin: 1rem auto 1rem 10%;
   }
 
   #accessibility{
@@ -383,11 +338,11 @@
     flex-direction: row;
     -webkit-flex: 1;
     flex: 1;
-    margin: 1rem 7.2rem .5rem 7.2rem;
+    width: 26%;
+    margin: 1rem auto 0 38%;
   }
 
   #accessibility span{
-    width: 80%;
     font-size: 13px;
   }
 
@@ -400,19 +355,6 @@
     height: 1rem;
     width: 1.3rem;
     margin-top: .3rem;
-  }
-
-  #fname::-webkit-input-placeholder, #lname::-webkit-input-placeholder, #email::-webkit-input-placeholder {
-    font-size: 12px
-  }
-  #fname:-moz-placeholder, #lname:-moz-placeholder, #email:-moz-placeholder {
-    font-size: 12px
-  }
-  #fname::-moz-placeholder, #lname::-moz-placeholder, #email::-moz-placeholder {
-    font-size: 12px
-  }
-  #fname:-ms-input-placeholder, #lname:-ms-input-placeholder, #email:-ms-input-placeholder {
-    font-size: 12px
   }
 
 }

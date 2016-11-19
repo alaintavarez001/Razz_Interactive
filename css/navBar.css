@@ -10,6 +10,7 @@
   background-color: white;
   z-index: 90;
   border-radius: 0;
+  text-align: center;
 }
 
 
@@ -18,7 +19,7 @@
   display: flex;
   margin-top: 0;
   height: 100%;
-  width: 15rem;
+  width: 10%;
 }
 
 #sideNavbutton:hover{
@@ -39,8 +40,7 @@
    color: #3a3943;
    display: inline-block;
    border: 1px solid #3a3943;
-   padding-top: .5rem;
-   padding-bottom: 2.3rem;
+   padding: .5rem .6rem 2.3rem 0;
    margin-top: 2.3rem;
    margin-left: -.1rem;
    height: 5rem;
@@ -84,9 +84,8 @@
 #phoneCall{
   color:#3a3943
   height: 100%;
-  width: 28rem;
-  padding-top: 3.5rem;
-  text-align: left;
+  width: 20%;
+  padding: 3.5rem 0 0 0rem;
   font-size: 19px;
   font-weight: 500;
 }
@@ -100,7 +99,7 @@
 /* page title*/
 #pageTitle{
   height: 100%;
-  width: 60rem;
+  width: 50%;
   padding-top: 2.5rem;
   font-size: 40px;
 }
@@ -109,8 +108,6 @@
   height: 5.5rem;
   width: 5.5rem;
   margin-top: -1.7rem;
-  margin-right: 1rem;
-  margin-left: 5rem;
 }
 
 #pageTitle span{
@@ -123,9 +120,8 @@
   color: #3a3943;
   margin-left: 5rem;
   height: 100%;
-  width: 15rem;
-  padding-top: 3.5rem;
-  text-align: right;
+  width: 10%;
+  padding: 3.5rem 2rem 0 0;
   font-size: 19px;
   font-weight: 500;
 }
@@ -139,9 +135,8 @@
 #applyNow{
   color: #3a3943;
   height: 100%;
-  width: 15rem;
-  padding-top: 3.5rem;
-  text-align: right;
+  width: 10%;
+  padding: 3.5rem .5rem 0 0;
   font-size: 19px;
   font-weight: 500;
 }
