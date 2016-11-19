@@ -1,5 +1,4 @@
-@media screen and (max-width: 480px) {
-
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
 /*navbar and side menu*/
 #phoneCall{
   display: none;
@@ -415,6 +414,5 @@
   #fname:-ms-input-placeholder, #lname:-ms-input-placeholder, #email:-ms-input-placeholder {
     font-size: 12px
   }
-
 
 }
