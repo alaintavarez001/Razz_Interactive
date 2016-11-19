@@ -6,8 +6,6 @@
   overflow: hidden;
 }
 
-
-
 .carousel-control.left, .carousel-control.right{
     background: none !important;
     filter: progid:none !important;
@@ -38,7 +36,6 @@
 
 
 .arrows{
-  font-weight: lighter;
   font-size: 90px;
 }
 
