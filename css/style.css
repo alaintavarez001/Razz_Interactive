@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Abhaya+Libre|Catamaran:100,200,300,400,500|IM+Fell+French+Canon|Jaldi');
-@import url('font-awesome.min.css');
 @import url('bootstrap.min.css');
 @import url('bootstrap-theme.min.css');
 @import url('navBar.css');
@@ -13,6 +12,8 @@
 @import url('copyrightaccessibility.css');
 @import url('modals.css');
 @import url('mediaquery.css');
+
+
 /*colors*/
 /*yellow/gold = #daa520 */
 /*gray/blue = #3a3943 */
