@@ -1,4 +1,4 @@
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /*navbar and side menu*/
 #pageTitle{
   display: none;
@@ -10,7 +10,7 @@ display: none;
 
 
 #sideNavbutton{
-  width: 33%;
+  width: 50%;
   text-align: center;
 }
 
@@ -48,15 +48,13 @@ display: none;
 
 #residents{
   margin-left: 0;
-  width: 33%%;
-  text-align: center;
+  width: 50%;
+  text-align: right;
   font-size: 19px;
 }
 
 #applyNow{
-  width: 33%;
-  text-align: center;
-  font-size: 19px;
+display: none;
 }
 
 /*side nav*/
@@ -96,7 +94,7 @@ display: none;
     position: fixed;
     width: 60%;
     height: 10%;
-    top: 17rem;
+    top: 13rem;
     left: 7rem;
     font-size: 20px;
   }
