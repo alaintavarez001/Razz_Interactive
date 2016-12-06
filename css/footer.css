@@ -13,10 +13,21 @@
   margin-bottom: 2rem;
 }
 
+.contactRazz{
+  text-decoration: none;
+  color: #3a3943;
+}
+
+.contactRazz:hover{
+  text-decoration: none;
+  color: #daa520;
+}
+
 .contact:hover{
   cursor: pointer;
   cursor: hand;
   color: #daa520;
+  text-decoration: none;
 }
 
 #phoneaddress1{
